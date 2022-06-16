@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
-
+import {BrowserRouter as Router, Route, Routes,  Redirect, Switch} from 'react-router-dom';
+import Navbar from "./Components/Navbar/Navbar";
+import Home from "./Components/Home/Home";
+import Owldemo1 from './Components/owldemo'  
+import OwlDemo from './Components/Owldemo1' 
+// import Footer from "./component/Footer/Footer";
+// import About from './component/About/About';
+// import News from './component/News/News';
+// import Companies from './component/Companies/companies'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+     
+ <Router>
+      <Navbar/>
+        <Owldemo1/>
+       <OwlDemo/>
+     <main>
+       
+      <Routes>n
+       <Route path ='/'  element={<Home/>} />
+         
+     
+       {/* <Route path='about'  element={<About/>} />
+
+       <Route path='news'  element={<News/>} />
+       <Route path='companies'  element={<Companies/>} /> */}
+      
+      </Routes>
+       
+     </main>
+     {/* <Footer/> */}
+   </Router>
+    
     </div>
   );
 }

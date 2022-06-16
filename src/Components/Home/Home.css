@@ -1,0 +1,52 @@
+.img1{
+    width: 100%;
+}
+.usi{
+    /* transform: translateY(-50); */
+    left:24%;
+}
+.usii{
+    transform: translateY(-50);
+    left:24%;
+    padding: 16px;
+}
+.we{
+    margin-top: 144px;
+    margin-bottom: 32px;
+}
+.bot{
+    margin-bottom: 96px;
+}
+/* .pos{
+    width: auto;
+height: 281.26px;
+background: #FFD911;
+} */
+.cards-wrapper{
+    display: flex;
+}
+.card{
+    margin: 0 1.5rem;
+}
+.our{
+    margin-bottom: 317px;
+}
+.bg{
+    background: #FFD911;
+    width: auto;
+    height: 200px;
+}
+.bg1{
+    transform: translateY(-50%);
+}
+
+
+
+
+
+@media screen and (max-width: 67px) {
+    .card:not(:first-child){
+        display: none;
+    }
+    
+}

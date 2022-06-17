@@ -1,5 +1,7 @@
 .img1{
     width: 100%;
+    height: auto;
+    margin-top: 64px;
 }
 .usi{
     /* transform: translateY(-50); */
@@ -26,21 +28,30 @@ background: #FFD911;
     display: flex;
 }
 .card{
-    margin: 0 1.5rem;
+    /* margin: 0 1.5rem; */
+    height: 321px;
 }
 .our{
-    margin-bottom: 317px;
+    margin-bottom: 144px;
 }
 .bg{
     background: #FFD911;
     width: auto;
-    height: 200px;
+    height: 330px;
 }
 .bg1{
-    transform: translateY(-50%);
+    transform: translateY(-16%);
 }
-
-
+.nav-link{
+    color: black;
+}
+.card-content{
+    position: absolute;
+    transform: translateY(-140%);
+    left: 10;
+    height: 200px;
+    background: #FFD911;
+}
 
 
 

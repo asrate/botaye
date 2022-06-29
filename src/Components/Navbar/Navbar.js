@@ -26,6 +26,8 @@ function Navbar(){
         </li>
         <li className="nav-item">
           <NavLink className="nav-link " to='./ourvalues' element='true'>Our Values</NavLink>
+        </li> <li className="nav-item">
+          <NavLink className="nav-link " to='./ourvalues' element='true'>Carees</NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link " to='/ourproject' element='true'>Our Project</NavLink>

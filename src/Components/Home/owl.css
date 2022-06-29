@@ -35,9 +35,21 @@
 .card{
         margin: 0 0.5rem;
         text-align: center;
-        background: black;
-        color: white;
+        /* background: black; */
+        /* color: white; */
 }
 .theme .owl-nav.disabled + .owl-dots{
         margin-top: 56px;
+}
+.card-color{
+        background: black;
+        color: white;
+        padding: 48px;
+}
+.card-img-top{
+        padding: 8px;
+}
+.card-service{
+        height: 321px;
+        background:rgba(217, 217, 217);
 }

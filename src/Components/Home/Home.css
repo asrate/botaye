@@ -28,8 +28,17 @@ background: #FFD911;
     display: flex;
 }
 .card{
-    /* margin: 0 1.5rem; */
-    height: 321px;
+    transition: 1s;
+    z-index: 10;
+overflow: hidden;
+}
+.card img {
+    transition: all .5s;
+    
+}
+.card:hover >img{
+transform: scale(1.1);
+z-index: 2;
 }
 .our{
     margin-bottom: 144px;
@@ -46,13 +55,22 @@ background: #FFD911;
     color: black;
 }
 .card-content{
-    position: absolute;
-    transform: translateY(-140%);
-    left: 10;
+    /* position: absolute; */
+    /* transform: translateY(-140%);
+    left: 10; */
     height: 200px;
     background: #FFD911;
+    padding: 24px 2px;
+    margin-bottom: 16px;
 }
-
+.card-img-top{
+    width: auto;
+    height: 67px;
+    object-fit: contain;
+}
+.container-fluid{
+    max-width: 100%;
+}
 
 
 @media screen and (max-width: 67px) {

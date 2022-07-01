@@ -40,8 +40,8 @@ export class Owldemo1 extends Component {
            </div>      
            </div>  
        </div>   */}
-        <div className="container-fluid position-relative bg">
-          <div class="container position-absolute bg1">
+        <div className="container-fluid position-relative bg"  >
+          <div class="container position-absolute bg1"  >
             <OwlCarousel
               items={1}
               className="owl-theme "
@@ -52,7 +52,7 @@ export class Owldemo1 extends Component {
               responsiveClass={true}
               responsive={this.state.responsive}
             >
-              <div className="card-wrapper position-relative">
+              <div className="card-wrapper position-relative" >
                 <div class="card card-service" >
                   <img src={img9} class="card-img-top" alt="..." />
                   <div class="card-body card-color">
@@ -104,7 +104,7 @@ export class Owldemo1 extends Component {
                     <h5 class="card-title">
                       Software Development & Implementation
                     </h5>
-                    <p class="card-text">
+                    <p class="card-text" id="who-we-are">
                       Design & Develop Custom Software Solutions that empower
                       businesses to stay ahead of their competition.
                     </p>

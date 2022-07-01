@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import {BrowserRouter as Router, Route, Routes,  Redirect, Switch} from 'react-router-dom';
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
@@ -13,6 +14,9 @@ function App() {
     delay: 1000, // values from 0 to 3000, with step 50ms
   duration: 800,
   });
+  
+
+
   return (
     <div >
      

@@ -1,14 +1,16 @@
 .img1{
     width: 100%;
-    height: auto;
-    margin-top: 64px;
+    height: 340px;
+    object-fit: cover;
+    /* margin-top: px; */
 }
 .usi{
     /* transform: translateY(-50); */
-    left:24%;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 .usii{
-    transform: translateY(-50);
     left:24%;
     padding: 16px;
 }
@@ -70,12 +72,4 @@ z-index: 2;
 }
 .container-fluid{
     max-width: 100%;
-}
-
-
-@media screen and (max-width: 67px) {
-    .card:not(:first-child){
-        display: none;
-    }
-    
 }

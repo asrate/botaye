@@ -6,11 +6,11 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import img15 from "./bg G.png";
-import img16 from "./ale.png";
-import img17 from "./n4ed.png";
-import img18 from "./siltena.png";
-import img19 from "./sirra.png";
-import img20 from "./tiru.png";
+import ale from "./ale.png";
+import n4ed from "./n4ed.png";
+import siltena from "./siltena.png";
+import sira from "./sirra.png";
+import tiru from "./tiru.png";
 // import "./owl.css";
 
 export class Project extends Component {
@@ -55,50 +55,50 @@ export class Project extends Component {
             >
               <div className=" ">
                 <div class="card " >
-                  <img src={img16} class="" alt="..." />
+                  <img src={ale} class="" alt="..." />
                   <div class="card-body text-end ">
                    
-                    <a href="#" class="btn btn-white text-dark ">Vist Site</a>
+                  <a  href="https://www.ale-des.com/"  target="_blank" class="btn btn-white text-dark" >Visit Site</a>
                   </div>
                 </div>
               </div>
 
               <div className=" ">
                 <div class="card  " >
-                  <img src={img17} class="" alt="..." />
+                  <img src={n4ed} class="" alt="..." />
                   <div class="card-body text-end ">
                    
-                    <a href="#" class="btn btn-white text-dark ">Vist Site</a>
+                  <a  href="https://campaign.n4ed.org/"  target="_blank" class="btn btn-white text-dark" >Visit Site</a>
                   </div>
                 </div>
               </div>
 
               <div className=" ">
                 <div class="card" >
-                  <img src={img18} class="" alt="..." />
+                  <img src={siltena} class="" alt="..." />
                   <div class="card-body text-end ">
                     
-                    <a href="#" class="btn btn-white text-dark ">Vist Site</a>
+                  <a  href="https://siltena.com/"  target="_blank" class="btn btn-white text-dark" >Visit Site</a>
                   </div>
                 </div>
               </div>
 
               <div className=" ">
                 <div class="card ">
-                  <img src={img19} class="" alt="..." />
+                  <img src={sira} class="" alt="..." />
                   <div class="card-body text-end ">
                     
-                    <a href="#" class="btn btn-white text-dark ">Vist Site</a>
+                  <a  href="https://sirabota.com/"  target="_blank" class="btn btn-white text-dark" >Visit Site</a>
                   </div>
                 </div>
               </div>
                
               <div className=" ">
                 <div class="card ">
-                  <img src={img20} class="" alt="..." />
+                  <img src={tiru} class="" alt="..." />
                   <div class="card-body text-end ">
                     
-                    <a href="#" class="btn btn-white text-dark ">Vist Site</a>
+                    <a href="https://tiruhakim.com/"  target="_blank" class="btn btn-white text-dark ">Vist Site</a>
                   </div>
                 </div>
               </div>
